@@ -1,0 +1,108 @@
+
+.contenedorPrincipal{
+    align-content: center;
+    background-color: rgb(176, 191, 214);
+}
+.perfil{
+    border-radius: 100%;
+    width: 50%;
+    
+}
+.htmlIMG{
+    width: 50%;
+}
+.segundoCuerpo{
+    background-color: rgb(37, 37, 97);
+    height: 100%;
+    padding: 1px solid white;
+    
+}
+.bloque:hover{
+    background-color: rgb(37, 37, 97);
+    color: white;
+    height: 100%;
+    transition: all 200ms ease-in;
+}
+.texto{
+    width: 90%;
+}
+.menu{
+    height: 100px;
+}
+
+.carousel-container {
+    width: 80%; 
+    max-width: 800px;
+    margin: auto; 
+}
+.carousel-item img {
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: auto;
+    display: block;
+}
+.carousel-caption {
+    position: static;
+    padding-top: 20px;
+    text-align: center;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: none;
+}
+.carousel-control-prev-icon::after,
+.carousel-control-next-icon::after {
+    content: ''; 
+    display: block; 
+    width: 30px;
+    height: 30px;
+    border: solid black;
+    border-width: 0 3px 3px 0; 
+    padding: 3px;
+}
+.carousel-control-prev-icon::after {
+    transform: rotate(135deg); 
+    margin-left: 10px; 
+}
+.carousel-control-next-icon::after {
+    transform: rotate(-45deg); 
+    margin-right: 10px;
+}
+.carousel-item .caption-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+.social-list li {
+    margin: 10px;
+    flex: 1 1 auto;
+    max-width: 20px;
+}
+.social-list li img {
+    width: 100%;
+    height: auto;
+}
+.pie{
+    background-color: rgb(37, 37, 97);
+    width: 100%;
+}
+
+h3{
+    font-family: "Righteous", sans-serif;
+    font-weight: 30;
+}
+.righteous-regular {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
